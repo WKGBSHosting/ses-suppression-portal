@@ -1,0 +1,23 @@
+{
+  "name": "ses-suppression-portal-backend",
+  "version": "1.0.0",
+  "description": "Backend API for SES Suppression Portal",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless offline",
+    "deploy": "serverless deploy",
+    "deploy:prod": "serverless deploy --stage prod",
+    "remove": "serverless remove",
+    "logs": "serverless logs -f sesSearch -t",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1490.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.3.0"
+  },
+  "keywords": ["aws", "ses", "serverless", "lambda"],
+  "author": "Your Name",
+  "license": "MIT"
+}
